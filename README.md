@@ -2,7 +2,7 @@
 1. Clone github ini untuk mendownload aplikasi
 2. copy .env.example dan ubah menjadi .env
 3. ubah database sesuai keinginian anda, misal DB_DATABASE=mamikos dan isi DB_USERNAME dan DB_PASSWORD sesuai dengan akses database anda
-4. kemudian buka terminal, saya menyarankan menggunakan git bash
+4. kemudian buka terminal, saya menyarankan menggunakan git bash dan buka xampp untuk mengaktifkan apache dan mysql
 5. Lalu masuk ke dirctory tempat anda menyimpan proyek laravel
 6. jika anda menggunakan git bash anda bisa klik kanan dan pilih git bash here, jika tidak maka buka terminal dan ketikkan cd:/c/xampp/htdocs/nama_aplikasi_anda
 5. kemudian perintah migrate untuk menjalankan perintah migrasi data ke database dengan perintah php artisan migrate
