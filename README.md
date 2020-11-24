@@ -7,6 +7,21 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+# Cara Menjalankan aplikasi
+1. Clone github ini untuk mendownload aplikasi
+2. copy .env.example dan ubah menjadi .env
+3. ubah database sesuai keinginian anda, misal DB_DATABASE=mamikos dan isi DB_USERNAME dan DB_PASSWORD sesuai dengan akses database anda
+4. kemudian buka terminal, saya menyarankan menggunakan git bash
+5. Lalu masuk ke dirctory tempat anda menyimpan proyek laravel
+6. jika anda menggunakan git bash anda bisa klik kanan dan pilih git bash here, jika tidak maka buka terminal dan ketikkan cd:/c/xampp/htdocs/nama_aplikasi_anda
+5. kemudian perintah migrate untuk menjalankan perintah migrasi data ke database dengan perintah php artisan migrate
+6. lalu jalankan perintah php artisan untuk mengakses server localhost
+7. Jika tidak berjalan lancar maka ketikkan perintah composer update dan npm update 
+8. Setelah semuanya berjalan lancar lalu buka postman untuk test APInya
+9. Berikut documentation API bisa diakses di link berikut https://documenter.getpostman.com/view/7342285/TVewYir4 
+
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
